@@ -1,0 +1,158 @@
+
+body,html{
+    padding:0;
+    border: 0;
+    font-family: "Lucida Sans", sans-serif ;
+
+}
+
+/*header section*/
+.header{
+    width: 100%;
+    background: purple;
+    background: linear-gradient(90deg, #0616ff 0%, #c00bcc 100%);
+}
+
+.header_inner{
+    max-width: 1200px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+@media screen and(min-width: 355px){
+    .header_inner{
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+}
+
+.header-logo{
+    color: white;
+    margin-top:0 ;
+
+}
+
+@media screen and(min-width: 355px){
+    .header-logo{
+        margin-top: 0;
+    }
+
+}
+
+
+
+.header_btn_grp--submit{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: orange;
+    border-radius: 20px;
+
+}
+
+
+.header_btn_grp--sign_in{
+    background: green;
+    color: white;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+
+
+.header_btn_grp--submit:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.header_btn_grp--sign_in:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/*general*/
+.main-container{
+
+    margin:auto;
+
+}
+
+/*search section*/
+
+.search-wrapper{
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+    background-color:#E8EAF6
+
+}
+
+.search_input{
+    padding: 8px 30px 8px 8px;
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid lightgray;
+
+}
+.search_search-icon{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.search_title{
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.FAQ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    max-width: 1200px;
+}
+.FAQ-lst{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none ;
+    justify-content: center;
+}
+.faq-list-item{
+    min-height: 8 rem;
+    width: 300px;
+    gap: 2rem;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/*footer*/
+.footer{
+
+    padding: 20px;
+    background: purple;
+    background: linear-gradient(90deg, #0616ff 0%, #c00bcc 100%);
+
+}
+
+.footer-content{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+}
